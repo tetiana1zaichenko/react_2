@@ -1,7 +1,7 @@
 import Colorpicker from "./components/Colorpicker/Colorpicker";
 // import Header from "./Header/Header";
-// import { TodoList } from "./TodoList/TodoList";
 import { Counter } from "./components/Counter/Counter";
+import { TodoList } from "./components/TodoList/TodoList";
 import Voting from "./components/Voting/Voting";
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <Counter />
       <Colorpicker />
       <Voting />
-      {/* <TodoList /> */}
+      <TodoList />
     </div>
   );
 };
